@@ -1,34 +1,26 @@
 import React from 'react';
-import { Link, Route, Routes } from 'react-router-dom';
-import Learn from './Learn';
+// import { Link, Route, Routes } from 'react-router-dom';
+// import Skills from './Skills';
 
-function Contact(props) {
+function Contact() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-      <Link to="learn" role="button" className="btn btn-link">
-        Learn More
-      </Link>
-      <Link to="contact" role="button" className="btn btn-link">
-        Learn Less
-      </Link>
-      <Routes>
-        <Route path="learn" element={<Learn />} />
-      </Routes>
+   
+
+    <div class="container-fluid mb-4 pt-5" id="contact">
+    <h2 class="text-center py-4 display-4 text-danger">Contact</h2>
+    <div class="row contact-content text-center">
+      <div class="col-12 mx-auto">
+        <a href="www.twitter.com"><i class="fa fa-twitter p-3 bg-secondary rounded-circle text-white" aria-hidden="true"></i></a>
+        <span class="mx-3"></span>
+        <a href="www.twitter.com"><i class="fa fa-linkedin p-3 bg-secondary rounded-circle text-white" aria-hidden="true"></i></a>
+        <span class="mx-3"></span>
+        <a href="https://github.com/samueltuki"><i class="fa fa-github p-3 bg-secondary rounded-circle text-white" aria-hidden="true"></i></a>
+      </div>
     </div>
+    </div>
+ 
+
+    
   );
 }
 

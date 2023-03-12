@@ -1,0 +1,103 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* nav bar css style ============*/
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+  
+  .collapse a:hover {
+    background-color: rgb(228, 96, 96);
+    box-shadow: 0px 5px 10px 1px rgb(113, 112, 112);
+    transform: translateY(-3px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* .navstick{
+    position: fixed;
+      top:0;
+      left: 0;
+      right: 0;
+    
+  } */
+  
+  .collapse a {
+    font-size: 25px;
+  }
+  
+  /* hero css style ================*/
+  /* .hero {
+    background: rgb(255, 255, 255);
+    background: linear-gradient(
+        rgba(255, 255, 255, 0.9),
+        rgba(149, 149, 149, 0.8)
+      ),
+      url(../images/bckground.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 90vh;
+    max-height: 100%;
+    background-attachment: fixed;
+  }
+   */
+  /* project cards ===========*/
+  
+  .card a {
+    position: absolute;
+    top: 54%;
+    left: 0%;
+  }
+  
+  #projects {
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+     to bottom, rgb(255, 255, 255),rgb(192, 192, 192)
+       
+    );
+  }
+  
+  #projects .card img {
+    object-fit:cover;
+    object-position: 50% 50%;
+    height: 280px;
+  }
+  
+  .card {
+    transition: all 0.3s ease-in-out;
+    min-width: 100%;
+  }
+  
+  .card:hover {
+    /* background-color: rgb(255, 254, 254) !important; */
+    box-shadow: 0px 5px 10px 1px rgb(113, 112, 112);
+    transform: translateY(-2px);
+    transition: all 0.4s ease-in-out;
+  }
+  
+  /* contact links ===========*/
+  .contact-content {
+    font-size: 30px;
+  }
+  
+  .contact-content i {
+    font-size: 30px;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .contact-content i:hover {
+    background-color: rgb(255, 0, 0) !important;
+    box-shadow: 0px 5px 10px 3px grey;
+    /* Horizontal Length | Vertical Length  | Blur Radius | Spread Radius | Shaddow colour  */
+    transform: translateY(-3px);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* skill bar ============== */
+  .skillbar {
+    min-height: 40px;
+  }
+  
+  
