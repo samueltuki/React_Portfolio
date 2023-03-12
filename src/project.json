@@ -4,19 +4,22 @@
     "title": "iRecipe",
     "github": "https://github.com/samueltuki/iRecipe",
     "deployed": "https://samueltuki.github.io/iRecipe/",
-    "description": "iRecipe is a real-world front-end application recipe and food image generator app that provides users with access to a large collection of recipes and corresponding images, including international dishes."
+    "description": "iRecipe is a real-world front-end application recipe and food image generator app that provides users with access to a large collection of recipes and corresponding images, including international dishes.",
+    "large": "true"
+ 
   },
   {
       "title": "Team-Profile-Generator",
       "github": "https://github.com/samueltuki/Team-Profile-Generator",
       "deployed": "https://samueltuki.github.io/Team-Profile-Generator/",
       "description": "This is a Node.js command line interface application built to help generate a useful basic profile based on the information given by the user."
+      
   },
   {
       "title": "Password-Generator",
       "github": "https://github.com/samueltuki/password-generator",
       "deployed": "https://samueltuki.github.io/password-generator/",
-      "description": "This is a JavaScript (JS) code that produces a random password generator based on the users input"
+      "description": "This is a JavaScript (JS) code that produces a random password generated based on the users input"
   },
   {
       "title": "Planner-App",

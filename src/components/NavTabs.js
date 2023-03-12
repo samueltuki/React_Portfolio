@@ -1,10 +1,24 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
+
+
+
+
+
+
+
+
+
+
+
+
+
 function NavTabs() {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+
+    <ul className="nav p-9 navbar-nav navbar  navbar-light bg-light navstick">
+      <li className="nav-item m-4">
         <NavLink
           to="/"
           end
@@ -15,7 +29,7 @@ function NavTabs() {
           Home
         </NavLink>
       </li>
-      <li className="nav-item">
+      <li className="nav-item m-4">
         <NavLink
           to="about"
           className={({ isActive }) =>
@@ -25,7 +39,7 @@ function NavTabs() {
           About
         </NavLink>
       </li>
-      <li className="nav-item">
+      <li className="nav-item m-4">
         <NavLink
           to="projectGallery"
           className={({ isActive }) =>
@@ -35,7 +49,7 @@ function NavTabs() {
           Project
         </NavLink>
       </li>
-      <li className="nav-item">
+      <li className="nav-item m-4">
         <NavLink
           to="contact"
           end
@@ -46,7 +60,7 @@ function NavTabs() {
           Contact
         </NavLink>
       </li>
-      <li className="nav-item">
+      <li className="nav-item m-4">
         <NavLink
           to="contact/learn"
           className={({ isActive }) =>

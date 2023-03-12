@@ -4,9 +4,14 @@ html {
   
   /* nav bar css style ============*/
   .navbar-nav {
-    margin-left: auto;
-    margin-right: 0 !important;
+    display: flex;
+    justify-content: center !important;
+    flex-direction: row !important;
+
   }
+
+  
+
   
   .collapse a:hover {
     background-color: rgb(228, 96, 96);
@@ -28,13 +33,13 @@ html {
   }
   
   /* hero css style ================*/
-  /* .hero {
+  .hero {
     background: rgb(255, 255, 255);
     background: linear-gradient(
         rgba(255, 255, 255, 0.9),
         rgba(149, 149, 149, 0.8)
       ),
-      url(../images/bckground.jpg);
+      url(/src/components/images/bckground.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,7 +47,7 @@ html {
     max-height: 100%;
     background-attachment: fixed;
   }
-   */
+  
   /* project cards ===========*/
   
   .card a {
