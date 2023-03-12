@@ -3,12 +3,48 @@ import React from "react";
 function Skills() {
   return (
     <div>
-      <h1 className="text-center">hello</h1>
-      <p>
-        Lorem ipsum dolor sit amet, est ut enim consequat. Nostrum fastidii partiendo sed ne, no
-        mutat ludus aperiri mea, per in choro dolorem electram. Invidunt reprimique assueverit quo
-        ne, eruditi graecis pro ut. Usu ut diceret scaevola evertitur, appareat voluptatibus ad vel.
-      </p>
+      <h2 className="text-center py-5 display-4 text-danger">Skill-Bar</h2>
+
+      <div className="container">
+        <div className="progress skillbar">
+          <div
+            className="progress-bar progress-bar-striped"
+            role="progressbar"
+            style={{ width: "4%" }}
+            aria-valuenow="10"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            JAVASCRIPT
+          </div>
+        </div>
+
+        <div className="progress skillbar">
+          <div
+            className="progress-bar progress-bar-striped bg-success"
+            role="progressbar"
+            style={{ width: "38%" }}
+            aria-valuenow="25"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            CSS
+          </div>
+        </div>
+
+        <div className="progress skillbar">
+          <div
+            className="progress-bar progress-bar-striped bg-info"
+            role="progressbar"
+            style={{ width: "58%" }}
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            HTML
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

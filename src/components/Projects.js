@@ -33,7 +33,6 @@ function projects({ image, title, description, deployed, large }) {
 
 export default projects;
 
-// import React from "react";
 
 // function Projects(props) {
 //   return (

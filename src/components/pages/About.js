@@ -1,6 +1,6 @@
 import React from "react";
 // import { Navlink } from 'react-router-dom';
-
+import displayImg from "../../components/images/stt.jpg"
 
 function About() {
   return (
@@ -9,14 +9,14 @@ function About() {
         <div className="row m-4 my-auto align-items-center">
           <div className="col-xs-12 col-md-6 text-center">
             <img
-              src="/src/components/images/stt.jpg"
+              src={displayImg}
               className="rounded-circle"
               width="300px"
               alt="displayPicture"
             />
           </div>
           <div className="col-xs-12 col-md-6">
-            <h1 className="display-1 text-danger style={} ">About me</h1>
+            <h1 className="display-1 text-danger ">About me</h1>
             <p className="font-weight-bolder">
               Hi, I am Sam a Front-End Web Developer.
             </p>

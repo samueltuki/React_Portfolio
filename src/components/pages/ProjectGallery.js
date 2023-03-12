@@ -10,6 +10,8 @@ import colCardImg from "../../components/images/active-states 3 col copy.jpg"
 function ProjectGallery(){
     return(
         <div>
+             <h2 class="text-center py-4 display-4 text-danger pt-5">Projects</h2>
+
             <Projects
               title= {project[0].title}
               image = {iRecipeImg}
