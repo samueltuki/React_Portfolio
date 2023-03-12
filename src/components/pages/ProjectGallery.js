@@ -1,5 +1,6 @@
 import Projects from "../Projects";
 import project from "../../project.json";
+import iRecipeImg from "../images/."
 
 function ProjectGallery(){
     return(
