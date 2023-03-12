@@ -1,12 +1,16 @@
 import React from "react";
-
+// grabbing the keys to have access to the props
 function projects({ image, title, description, deployed, large }) {
-  const classes = `${large ? "col-12 col-sm-12 col-md-8 col-lg-6 " : "col-12 col-sm-6 col-md-4 col-lg-3"}`;
+  const classes = `${
+    large
+      ? "col-12 col-sm-12 col-md-8 col-lg-6 d-flex align-items-stretch"
+      : "col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch"
+  }`;
 
   return (
-    <div className="row mb-5">
+    <div className="row m-4">
       <div className={classes}>
-        <div className="card">
+        <div className="card ">
           <img src={image} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{title}</h5>
@@ -23,41 +27,11 @@ function projects({ image, title, description, deployed, large }) {
           </div>
         </div>
       </div>
-
-
     </div>
   );
 }
 
 export default projects;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // import React from "react";
 
@@ -69,7 +43,7 @@ export default projects;
 //     <div class="row ">
 //      <div className= "col-sm-12 col-md-10 col-lg-8">
 //         <div class="card mb-3">
-//           <img 
+//           <img
 //             src={props.image}
 //             class="card-img-top"
 //             alt="..."/>
@@ -78,7 +52,7 @@ export default projects;
 //             <p class="card-text">
 //              <span class="small">{props.description}</span>
 //             </p>
-//             <a href={props.deployed} class="btn btn-outline-danger " target="_blank">Deploy site</a>  
+//             <a href={props.deployed} class="btn btn-outline-danger " target="_blank">Deploy site</a>
 //           </div>
 //         </div>
 //       </div>

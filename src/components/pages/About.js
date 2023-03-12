@@ -9,7 +9,7 @@ function About() {
         <div className="row m-4 my-auto align-items-center">
           <div className="col-xs-12 col-md-6 text-center">
             <img
-              src="./assets/images/bio image.jpg"
+              src="../../components/images/stt.jpg"
               className="rounded-circle"
               width="300px"
               alt="displayPicture"
