@@ -1,17 +1,15 @@
 import Projects from "../Projects";
 import project from "../../project.json";
-import iRecipeImg from "/src/images/iRecipeImg.png";
-import teamGenImg from "./images/team generator.jpeg";
-import passGenImg from "./images/Password_generator.png";
-import planAppImg from "./images/planner.gif";
-import quizImg from "./images/quiz.jpeg";
-import colCardImg from "./images/active-states 3 col.jpg"
+import iRecipeImg from "../../components/images/iRecipeImg.png";
+import teamGenImg from "../../components/images/team generator.jpeg";
+import passGenImg from "../../components/images/Password_generator copy.png";
+import planAppImg from "../../components/images/planner.gif";
+import quizImg from "../../components/images/quiz.jpeg";
+import colCardImg from "../../components/images/active-states 3 col copy.jpg"
 
 function ProjectGallery(){
     return(
         <div>
-            <h2 className="text-center py-4 display-4 text-danger pt-5">Projects</h2>
-
             <Projects
               title= {project[0].title}
               image = {iRecipeImg}
