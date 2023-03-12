@@ -1,11 +1,11 @@
 import Projects from "../Projects";
 import project from "../../project.json";
-import iRecipeImg from "../images/iRecipeImg.png";
-import teamGenImg from "../images/team generator.jpeg";
-import passGenImg from "../images/Password_generator.png";
-import planAppImg from "../images/planner.gif";
-import quizImg from "../images/quiz.jpeg";
-import colCardImg from "../images/active-states 3 col.jpg"
+import iRecipeImg from "/src/images/iRecipeImg.png";
+import teamGenImg from "./images/team generator.jpeg";
+import passGenImg from "./images/Password_generator.png";
+import planAppImg from "./images/planner.gif";
+import quizImg from "./images/quiz.jpeg";
+import colCardImg from "./images/active-states 3 col.jpg"
 
 function ProjectGallery(){
     return(
