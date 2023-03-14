@@ -3,14 +3,14 @@ import React from "react";
 function projects({ image, title, description, deployed, large }) {
   const classes = `${
     large
-      ? "col-12 col-sm-12 col-md-8 col-lg-6 d-flex align-items-stretch"
+      ? "col-12 col-sm-12 col-md-8 col-lg-6 d-flex align-items-stretch  "
       : "col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch"
   }`;
-
+  
   return (
-    <div className="row m-4">
-      <div className={classes}>
-        <div className="card ">
+    <div  className="row m-4 ">
+      <div className={classes} >
+        <div className="card">
           <img src={image} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{title}</h5>

@@ -11,7 +11,7 @@ function About() {
             <img
               src={displayImg}
               className="rounded-circle"
-              width="300px"
+              width="250rem"
               alt="displayPicture"
             />
           </div>

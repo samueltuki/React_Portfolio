@@ -1,25 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 function NavTabs() {
   return (
 
     <div className='navvv'>
 
-<ul className="nav p-9 navbar-nav navbar  navbar-light bg-light navstick ">
+<ul className="nav p-9 navbar-nav navbar  navbar-toggler bg-light navstick ">
         <li className="nav-item m-4">
           <NavLink
             to="/"
