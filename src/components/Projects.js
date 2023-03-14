@@ -1,15 +1,15 @@
 import React from "react";
 // grabbing the keys to have access to the props
 function projects({ image, title, description, deployed, large }) {
-  const classes = `${
-    large
-      ? "col-12 col-sm-12 col-md-8 col-lg-6 d-flex align-items-stretch  "
-      : "col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch"
-  }`;
-  
+  // const classes = `${
+  //   large
+  //     ? "col-12 col-sm-12 col-md-8 col-lg-6 d-flex align-items-stretch  "
+  //     : "col-12 col-sm-6 col-md-4 col-lg-3 d-flex align-items-stretch"
+  // }`;
+
   return (
-    <div  className="row m-4 ">
-      <div className={classes} >
+    <div  className=" m-4 ">
+      <div>
         <div className="card">
           <img src={image} className="card-img-top" alt="..." />
           <div className="card-body">
