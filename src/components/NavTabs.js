@@ -7,7 +7,7 @@ function NavTabs() {
     <div className='navvv'>
 
 <ul className="nav p-9 navbar-nav navbar  navbar-toggler bg-light navstick ">
-        <li className="nav-item m-4">
+        {/* <li className="nav-item m-4">
           <NavLink
             to="/"
             end
@@ -17,7 +17,7 @@ function NavTabs() {
           >
             Home
           </NavLink>
-        </li>
+        </li> */}
 
         <li className="nav-item m-4">
           <NavLink
