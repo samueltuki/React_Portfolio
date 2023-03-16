@@ -4,7 +4,7 @@ function Home() {
   return (
   <div>
     <h1>
-      higergrrr
+      hi
     </h1>
   </div>
     

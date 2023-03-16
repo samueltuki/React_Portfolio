@@ -52,10 +52,14 @@ html {
   left: 0%;
 }
 
+
+
 .projectGrid{
 
   margin: 0;
   display: grid;
+  align-items:center;
+  justify-content: center;
   grid-template-columns: 100%;
   grid-template-rows: repeat(auto,6);
   grid-template-areas: 
@@ -92,20 +96,7 @@ html {
   grid-area: project6;
 }
 
-@media only screen and (min-width:700px){
 
-  .projectGrid{
-
-    margin: 0;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto ;
-    grid-template-areas:
-    "project1 project1 project2"
-    "project3 project4 project5"
-    "project6";
-  }
-}
 
 #projects {
   background: rgb(0, 0, 0);
@@ -155,4 +146,19 @@ html {
 /* skill bar ============== */
 .skillbar {
   min-height: 40px;
+}
+
+@media only screen and (min-width:700px){
+
+  .projectGrid{
+
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto ;
+    grid-template-areas:
+    "project1 project1 project2"
+    "project3 project4 project5"
+    "project6";
+  }
 }
