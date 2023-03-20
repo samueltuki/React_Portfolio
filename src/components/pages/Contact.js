@@ -49,7 +49,7 @@ function Contact() {
                 required
               ></textarea>
             </div>
-            <button className="btn btn-outline-danger w-100" type="submit">
+            <button className="btn btn-outline-danger w-100 font-weight-bold" type="submit">
               Get Intouch
             </button>
           </form>
@@ -82,8 +82,8 @@ function Contact() {
 
           {/* CV Download */}
           <div className="d-flex justify-content-center">
-          
-          <a href="" className='btn btn-outline-danger px-3 py-2 font-weight-bold' style={{borderWidth:"2px", fontSize:"14px"}}><i className="fa fa-download mr-2" aria-hidden="true"></i>Copy of my CV</a>
+          <a href="/public/asset/TUKI_SAMUEL_cv.doc" download="TUKI "className="btn btn-outline-danger px-3 font-weight-bold mb-2"><i className="fa fa-download mr-2" ></i>Copy of my CV
+          </a>
           </div>
           
         </div>

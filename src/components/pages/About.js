@@ -1,6 +1,7 @@
 import React from "react";
 // import { Navlink } from 'react-router-dom';
 import displayImg from "../../components/images/stt.jpg"
+import { Link } from "react-router-dom";
 
 function About() {
   return (
@@ -27,10 +28,16 @@ function About() {
             </p>
             <p> With my persevering nature the sky is my starting point.</p>
           </div>
+
+         
         </div>
       </div>
 
-      <div></div>
+      <div>
+      <Link to="/contact">
+          <button className="btn btn-secondary mb-2">Let's Talk</button>
+        </Link>
+      </div>
     </div>
   );
 }
