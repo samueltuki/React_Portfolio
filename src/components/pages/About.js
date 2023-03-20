@@ -22,7 +22,7 @@ function About() {
               Hi, I am Sam a Front-End Web Developer.
             </p>
             <p className=" lead mt-3 h5 about-me-content">
-            I have a keen eye for designing and creating beautiful and responsive websites.  Enjoy watching soccer and rap music.
+            I have a keen eye for designing and creating beautiful and responsive websites. I do enjoy watching soccer and rap music.
             </p>
             
           
