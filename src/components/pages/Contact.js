@@ -56,7 +56,7 @@ function Contact() {
         </div>
 
             {/* contact socials */}
-        <div className=" contact-content col-md-6 ">
+        <div className=" mt-4 contact-content col-md-6 ">
           <div className="mb-5 mx-auto d-flex justify-content-center">
             <a href="www.twitter.com">
               <i
@@ -83,7 +83,7 @@ function Contact() {
           {/* CV Download */}
           <div className="d-flex justify-content-center">
           
-          <a href="https://github.com/trunten/trunten/raw/main/files/CV.pdf" className='btn btn-outline-danger px-3 py-2 font-weight-bold' style={{borderWidth:"2px", fontSize:"14px"}}><i className="fa fa-download mr-2" aria-hidden="true"></i>Copy of my CV</a>
+          <a href="" className='btn btn-outline-danger px-3 py-2 font-weight-bold' style={{borderWidth:"2px", fontSize:"14px"}}><i className="fa fa-download mr-2" aria-hidden="true"></i>Copy of my CV</a>
           </div>
           
         </div>
