@@ -8,7 +8,6 @@ function Contact() {
       <h2 className="text-center py-4 display-4 text-danger">Contact</h2>
       <div className="row">
         <div className="col-lg-6 " style={{ width: "400 px" }}>
-
           {/* contact form  */}
           <form
             className="needs-validation text-left mx-auto"
@@ -49,13 +48,16 @@ function Contact() {
                 required
               ></textarea>
             </div>
-            <button className="btn btn-outline-danger w-100 font-weight-bold" type="submit">
-              Get Intouch
+            <button
+              className="btn btn-outline-danger w-100 font-weight-bold"
+              type="submit"
+            >
+              Get In-touch
             </button>
           </form>
         </div>
 
-            {/* contact socials */}
+        {/* contact socials */}
         <div className=" mt-4 contact-content col-md-6 ">
           <div className="mb-5 mx-auto d-flex justify-content-center">
             <a href="www.twitter.com">
@@ -82,12 +84,14 @@ function Contact() {
 
           {/* CV Download */}
           <div className="d-flex justify-content-center">
-          <a href="/public/asset/TUKI_SAMUEL_cv.doc" download="TUKI "className="btn btn-outline-danger px-3 font-weight-bold mb-2"><i className="fa fa-download mr-2" ></i>Copy of my CV
-          </a>
+            <a
+              href="/public/asset/TUKI_SAMUEL_cv.doc"
+              download="TUKI_SAMUEL.doc"
+              className="btn btn-outline-danger px-3 font-weight-bold mb-2">
+              <i className="fa fa-download mr-2"></i>Copy of my CV
+            </a>
           </div>
-          
         </div>
-        
       </div>
     </div>
   );
