@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 function NavTabs() {
   return (
     <div className='d-flex justify-content-center navvv navStick'>
-    <nav className="navbar navbar-expand-lg navbar-light bg-light">
+    <nav className="navbar navbar-expand-lg  bg-light " style={{height: '80px'}}>
       <button
         className="navbar-toggler"
         type="button"
