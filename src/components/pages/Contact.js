@@ -85,8 +85,8 @@ function Contact() {
           {/* CV Download */}
           <div className="d-flex justify-content-center">
             <a
-              href="/public/asset/TUKI_SAMUEL_cv.doc"
-              download="TUKI_SAMUEL.doc"
+              href="/asset/MyCv.doc"
+              download="MyCv.doc"
               className="btn btn-outline-danger px-3 font-weight-bold mb-2">
               <i className="fa fa-download mr-2"></i>Copy of my CV
             </a>
