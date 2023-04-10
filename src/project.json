@@ -1,12 +1,19 @@
 [
     {
-      "title": "iRecipe",
-      "github": "https://github.com/samueltuki/iRecipe",
-      "deployed": "https://samueltuki.github.io/iRecipe/",
-      "description": "iRecipe is a real-world front-end application recipe and food image generator app that provides users with access to a large collection of recipes and corresponding images, including international dishes.",
+      "title": "Chatter-Box",
+      "github": "https://github.com/samueltuki/chatterbox_app",
+      "deployed": "https://chatterbox-web.netlify.app/",
+      "description": "A lightweight WhatsApp like chat app where you can chat with the world about everything, everywhere.",
       "large": "true",
-      "image": "iRecipeImg.png"
+      "image": "log-in.png"
     },
+    {
+        "title": "iRecipe",
+        "github": "https://github.com/samueltuki/iRecipe",
+        "deployed": "https://samueltuki.github.io/iRecipe/",
+        "description": "iRecipe is a real-world front-end application recipe and food image generator app that provides users with access to a large collection of recipes and corresponding images, including international dishes.",
+        "image": "iRecipeImg.png"
+      },
     {
         "title": "Team-Profile-Generator",
         "github": "https://github.com/samueltuki/Team-Profile-Generator",
@@ -25,7 +32,7 @@
         "title": "Planner-App",
         "github": "https://github.com/samueltuki/planner-app",
         "deployed": "https://samueltuki.github.io/planner-app/",
-        "description": "a simple calendar application that allows a user to save events for each hour of the day",
+        "description": "A simple calendar application that allows a user to save events for each hour of the day",
         "image": "planner.gif"
     },
     {
