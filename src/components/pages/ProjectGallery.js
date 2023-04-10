@@ -12,7 +12,7 @@ function ProjectGallery(){
       <h2 class="text-center py-4 display-4 text-danger pt-5">Projects</h2>
       </div>
 
-      <div className="projectGrid container-fluid">
+      <div className="projectGrid container-fluid ">
         <div className="row mx-auto">
           {projectsJSON.map(project => 
             <Projects id="project1"

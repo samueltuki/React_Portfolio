@@ -73,6 +73,14 @@ html {
 
 /* project cards ===========*/
 
+.ease{
+
+  transition-timing-function: ease-in;
+  transition: 0.3s;
+  transform: translateY(130px);
+
+}
+
 .card a {
   position: absolute;
   top: 54%;

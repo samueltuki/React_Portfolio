@@ -67,7 +67,7 @@ function Contact() {
               ></i>
             </a>
             <span className="mx-3"></span>
-            <a href="www.twitter.com">
+            <a href="https://www.linkedin.com/in/samuel-tuki-305baa25a/">
               <i
                 className="fa fa-linkedin p-3 bg-secondary rounded-circle text-white"
                 aria-hidden="true"
@@ -87,7 +87,8 @@ function Contact() {
             <a
               href="/asset/MyCv.doc"
               download="MyCv.doc"
-              className="btn btn-outline-danger px-3 font-weight-bold mb-2">
+              className="btn btn-outline-danger px-3 font-weight-bold mb-2"
+            >
               <i className="fa fa-download mr-2"></i>Copy of my CV
             </a>
           </div>

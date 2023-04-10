@@ -10,7 +10,7 @@ function Skills() {
           <div
             className="progress-bar progress-bar-striped"
             role="progressbar"
-            style={{ width: "10%" }}
+            style={{ width: "35%" }}
             aria-valuenow="10"
             aria-valuemin="0"
             aria-valuemax="100"
@@ -42,6 +42,18 @@ function Skills() {
             aria-valuemax="100"
           >
             HTML
+          </div>
+        </div>
+        <div className="progress skillbar">
+          <div
+            className="progress-bar progress-bar-striped bg-danger"
+            role="progressbar"
+            style={{ width: "40%" }}
+            aria-valuenow="50"
+            aria-valuemin="0"
+            aria-valuemax="100"
+          >
+            REACT
           </div>
         </div>
       </div>

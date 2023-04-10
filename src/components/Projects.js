@@ -1,7 +1,7 @@
 export default function projects({ image, title, description, deployed, github, large }) {
   return (
-    <div className={large ? "mb-4 col-xl-8": "mb-4 col-md-6 col-xl-4"}>
-      <div className="card h-100">
+    <div className={large ? "mb-4 col-xl-8": "mb-4 col-md-6 col-xl-4"} >
+      <div className="card h-100 ">
 
         {/* setting bckground images for the cards */}
         <div className="p-4" style={{backgroundPosition: "center top", backgroundImage: `linear-gradient(rgba(220, 220, 220, 0.9), rgba(220, 220, 220, 0.9)), url(${process.env.PUBLIC_URL}/images/${image})`, backgroundSize:"cover"}}>
