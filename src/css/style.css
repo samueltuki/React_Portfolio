@@ -3,11 +3,7 @@ html {
 }
 
 /* nav bar css style ============*/
-.navbar-nav {
-  display: flex;
-  justify-content: center !important;
-  flex-direction: row !important;
-}
+
 
 .navvv a:hover {
   background-color: rgb(255, 0, 0);
