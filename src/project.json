@@ -5,7 +5,7 @@
       "deployed": "https://chatterbox-web.netlify.app/",
       "description": "A lightweight WhatsApp like chat app where you can chat with the world about everything, everywhere.",
       "large": "true",
-      "image": "log-in.png"
+      "image": "chatroom.png"
     },
     {
         "title": "iRecipe",
