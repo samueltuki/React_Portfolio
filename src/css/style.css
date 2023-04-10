@@ -25,7 +25,7 @@ html {
   } */
 
 .collapse a {
-  font-size: 25px;
+  font-size: 22px;
 }
 
 /* hero css style ================*/
@@ -47,28 +47,33 @@ html {
 /* about me type effect */
 .typewriter {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid rgb(255, 0, 0); /* The typwriter cursor */
+  border-right: 0.15em solid rgb(255, 0, 0); /* The typwriter cursor */
   white-space: wrap; /* Keeps the content on a single line */
   margin: 0 auto; /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .120em; /* Adjust as needed */
-  animation: 
-    typing 2.5s steps(20, end),
-    blink-caret .75s ;
+  letter-spacing: 0.12em; /* Adjust as needed */
+  animation: typing 2.5s steps(20, end), blink-caret 0.75s;
 }
 
 /* The typing effect */
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 /* The typewriter cursor effect */
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: rgb(255, 0, 0); }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(255, 0, 0);
+  }
 }
-
-
 
 /* project cards ===========*/
 
@@ -78,24 +83,20 @@ html {
   left: 0%;
 }
 
-
-
-.projectGrid{
-
+.projectGrid {
   margin: 0;
   display: grid;
-  align-items:center;
+  align-items: center;
   justify-content: center;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(auto,6);
-  grid-template-areas: 
-
-  "project1"
-  "project2"
-  "project3"
-  "project4"
-  "project5"
-  "project6";
+  grid-template-rows: repeat(auto, 6);
+  grid-template-areas:
+    "project1"
+    "project2"
+    "project3"
+    "project4"
+    "project5"
+    "project6";
 }
 
 #project1 {
@@ -121,8 +122,6 @@ html {
 #project6 {
   grid-area: project6;
 }
-
-
 
 #projects {
   background: rgb(0, 0, 0);
@@ -174,17 +173,15 @@ html {
   min-height: 40px;
 }
 
-@media only screen and (min-width:700px){
-
-  .projectGrid{
-
+@media only screen and (min-width: 700px) {
+  .projectGrid {
     margin: 0;
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto ;
+    grid-template-rows: auto auto;
     grid-template-areas:
-    "project1 project1 project2"
-    "project3 project4 project5"
-    "project6";
+      "project1 project1 project2"
+      "project3 project4 project5"
+      "project6";
   }
 }
