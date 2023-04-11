@@ -4,12 +4,22 @@ html {
 
 /* nav bar css style ============*/
 
-
 .navvv a:hover {
   background-color: rgb(255, 0, 0);
   box-shadow: 0px 5px 10px 1px rgb(113, 112, 112);
   transform: translateY(-3px);
   transition: all 0.3s ease-in-out;
+}
+.navBg {
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgb(207, 207, 207)
+  );
+}
+
+.aBug {
+  border: 2px solid red;
 }
 
 /* .navStick{
@@ -73,12 +83,10 @@ html {
 
 /* project cards ===========*/
 
-.ease{
-
+.ease {
   transition-timing-function: ease-in;
   transition: 0.3s;
   transform: translateY(130px);
-
 }
 
 .card a {

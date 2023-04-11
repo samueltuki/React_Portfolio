@@ -5,7 +5,7 @@ function NavTabs() {
   return (
     <div className="d-flex justify-content-between navvv navStick nav-bar ">
       <nav
-        className="navbar navbar-expand-md  bg-light "
+        className="navbar navbar-expand-md nav-fill fixed-top"
         style={{ height: "35px" }}
       >
         <button
@@ -18,7 +18,7 @@ function NavTabs() {
           <span className="navbar-toggler-icon"></span>
         </button>
         {/* navbar links */}
-        <div className="collapse navbar-collapse" id="collapsibleNavbar">
+        <div className="collapse navbar-collapse navBg" id="collapsibleNavbar">
           <ul className="navbar-nav">
             <li className="nav-item mt-4">
               <NavLink
