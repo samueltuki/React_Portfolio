@@ -1,15 +1,21 @@
 import React from "react";
 // import { Link, Route, Routes } from 'react-router-dom';
 // import Skills from './Skills';
+import { useForm, ValidationError } from "@formspree/react";
 
 function Contact() {
+  const [state, handleSubmit] = useForm("contactForm");
+  if (state.succeeded) { return <p>Thanks for the message!</p>; 
+}
+
   return (
+  
     <div className="container-fluid mb-4 pt-4 " id="contact">
       <h2 className="text-center py-4 display-4 text-danger">Contact</h2>
       <div className="row">
         <div className="col-lg-6 " style={{ width: "400 px" }}>
           {/* contact form  */}
-          <form
+          <form onSubmit={handleSubmit}
             className="needs-validation text-left mx-auto"
             style={{ maxWidth: "300px" }}
             method="POST"
@@ -87,7 +93,7 @@ function Contact() {
             <a
               href="/asset/MyCv.doc"
               download="MyCv.doc"
-              className="btn btn-outline-danger px-3 font-weight-bold mb-2"
+              className="btn btn-outline-danger px-3 font-weight-bold mb-6 bounce "
             >
               <i className="fa fa-download mr-2"></i>Copy of my CV
             </a>
