@@ -1,8 +1,23 @@
-import React, { useRef } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import { NavLink } from "react-router-dom";
 
 function NavTabs() {
   const mobileToggleRef = useRef(null);
+  const [isSmallScreen, setIsSmallScreen] = useState(false);
+
+  // Added an event listener to the window to check if the screen is small or not
+  useEffect(() => {
+    const handleResize = () => {
+      setIsSmallScreen(window.innerWidth <= 768);
+    };
+
+    handleResize();
+    window.addEventListener("resize", handleResize);
+
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handleNavLinkClick = () => {
     // Simulate a click on the mobile toggle button to hide the menu
@@ -34,7 +49,7 @@ function NavTabs() {
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
-                onClick={handleNavLinkClick} // Add onClick event listener to hide the menu
+                onClick={isSmallScreen ? handleNavLinkClick : undefined} // Add onClick event listener only if the screen is small
               >
                 About
               </NavLink>
@@ -45,7 +60,7 @@ function NavTabs() {
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
-                onClick={handleNavLinkClick} // Add onClick event listener to hide the menu
+                onClick={isSmallScreen ? handleNavLinkClick : undefined} // Add onClick event listener only if the screen is small
               >
                 Project
               </NavLink>
@@ -57,7 +72,7 @@ function NavTabs() {
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
-                onClick={handleNavLinkClick} // Add onClick event listener to hide the menu
+                onClick={isSmallScreen ? handleNavLinkClick : undefined} // Add onClick event listener only if the screen is small
               >
                 Contact
               </NavLink>
@@ -68,7 +83,7 @@ function NavTabs() {
                 className={({ isActive }) =>
                   isActive ? "nav-link active" : "nav-link"
                 }
-                onClick={handleNavLinkClick} // Add onClick event listener to hide the menu
+                onClick={isSmallScreen ? handleNavLinkClick : undefined} // Add onClick event listener only if the screen is small
               >
                 Skills
               </NavLink>
